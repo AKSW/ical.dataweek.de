@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ical-dataweek-de"
+version = "0.1.0"
+description = ""
+authors = ["Natanael Arndt <natanael.arndt@eccenca.com>"]
+readme = "README.md"
+packages = [{include = "ical"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.4.2"
+mkdocs-gen-files = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
