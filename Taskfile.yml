@@ -1,0 +1,23 @@
+version: '3'
+
+vars:
+  MKDOCS_WORKING_DIR: ical
+
+tasks:
+  default:
+    cmds:
+      - task -a
+
+  install:
+    cmds:
+      - poetry install
+
+  serve:
+    dir: '{{.MKDOCS_WORKING_DIR}}'
+    cmds:
+      - poetry run mkdocs serve
+
+  build:
+    dir: '{{.MKDOCS_WORKING_DIR}}'
+    cmds:
+      - poetry run mkdocs build
