@@ -1,1 +1,8 @@
 site_name: ical Feeds
+theme:
+    name: null
+    custom_dir: layouts
+plugins:
+  - gen-files:
+      scripts:
+        - scripts/gen_ical.py
