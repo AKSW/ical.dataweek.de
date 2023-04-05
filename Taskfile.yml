@@ -5,19 +5,23 @@ vars:
 
 tasks:
   default:
+    desc: The default task shows an overview of all tasks
     cmds:
       - task -a
 
   install:
+    desc: Install the dependencies
     cmds:
       - poetry install
 
   serve:
+    desc: Serve the mkdocs resources
     dir: '{{.MKDOCS_WORKING_DIR}}'
     cmds:
       - poetry run mkdocs serve
 
   build:
+    desc: Build the mkdocs site
     dir: '{{.MKDOCS_WORKING_DIR}}'
     cmds:
       - poetry run mkdocs build
