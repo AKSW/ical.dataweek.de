@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
+DTSTART;TZID=Europe/Berlin:20230628T090000
+DTEND;TZID=Europe/Berlin:20230628T150000
+DESCRIPTION:This training is tailored to the needs of the employees of the
+  City of Leipzig and focuses on teaching data skills - in particular on da
+ ta types and structures\, on various analysis methods and the use of the P
+ ython programming language for data analysis. In addition to theoretical a
+ nd practical basics on all aspects (first part\, morning)\, data analysis 
+ with Python will also be taught using practical examples (second part\, af
+ ternoon). The registration is only available for employees of the city of 
+ Leipzig.
+LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230628T103000
+DTEND;TZID=Europe/Berlin:20230628T110000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230628T123000
+DTEND;TZID=Europe/Berlin:20230628T140000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Posters and Stands
+DTSTART;TZID=Europe/Berlin:20230628T153000
+DTEND;TZID=Europe/Berlin:20230628T160000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Snacks & Cocktails
+DTSTART;TZID=Europe/Berlin:20230628T173000
+DTEND;TZID=Europe/Berlin:20230628T183000
+DESCRIPTION:Snacks and Cocktails
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop Semantics: Role of semantic interoperability
+DTSTART;TZID=Europe/Berlin:20230628T090000
+DTEND;TZID=Europe/Berlin:20230628T103000
+DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
+ tems context - high level\nEIF layers\n\nAspects - metadata schemas exampl
+ e?\n\nDifferent types of resource doing different jobs\n\nThe Interoperabi
+ lity Value Pyramid\n\nSemantic Grounding of identifiers in “registers”
+ \n\nThe Bow-tie view on scalability\n\nFAIR in action - the economics of r
+ e-use \n\nFactoring cost of evaluation\n\nHigh Value Datasets and  vocabul
+ aries for Essential Variables' \n\n
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop Semantics: Example - OGC API Building Blocks
+DTSTART;TZID=Europe/Berlin:20230628T110000
+DTEND;TZID=Europe/Berlin:20230628T123000
+DESCRIPTION:What are the types of information we need to manage:\nBasic vo
+ cabularies\nOntologies (GeoSPARQL\, SOSA etc)\nMachine readable specificat
+ ions \nOGC Reference Model\nProfiles catalog\nObservable Properties\nFeatu
+ re Type Catalog\n\n
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop Semantics: OGC (and community) semantic resources
+DTSTART;TZID=Europe/Berlin:20230628T140000
+DTEND;TZID=Europe/Berlin:20230628T153000
+DESCRIPTION:What are the types of information we need to manage:\n\nBasic 
+ vocabularies\n\nOntologies (GeoSPARQL\, SOSA etc)\n\nMachine readable spec
+ ifications \n\nOGC Reference Model\n\nProfiles catalog\n\nObservable Prope
+ rties\n\nFeature Type Catalog\n\n
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Workshop Semantics: Developer perspective
+DTSTART;TZID=Europe/Berlin:20230628T160000
+DTEND;TZID=Europe/Berlin:20230628T173000
+DESCRIPTION:Hands on with some tools\n\nSpreadsheet ingest pipeline\n\nJSO
+ N-LD uplift pipeline\n\nPlayground support\n\nDIY profile description\n\nS
+ HACL validation\n\nCI/CT/CD for examples\n\nSpecification Generation\n\n
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome
+DTSTART;TZID=Europe/Berlin:20230628T090000
+DTEND;TZID=Europe/Berlin:20230628T091500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Ontology Development 101 in the age of Foundation Models
+DTSTART;TZID=Europe/Berlin:20230628T091500
+DTEND;TZID=Europe/Berlin:20230628T094500
+LOCATION:Sitzungssaal
+END:VEVENT
+END:VCALENDAR

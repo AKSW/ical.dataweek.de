@@ -1,0 +1,165 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:Admission
+DTSTART;TZID=Europe/Berlin:20230627T083000
+DTEND;TZID=Europe/Berlin:20230627T090000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230627T100000
+DTEND;TZID=Europe/Berlin:20230627T103000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230627T120000
+DTEND;TZID=Europe/Berlin:20230627T130000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230627T143000
+DTEND;TZID=Europe/Berlin:20230627T144500
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230627T143000
+DTEND;TZID=Europe/Berlin:20230627T150000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART;TZID=Europe/Berlin:20230627T163000
+DTEND;TZID=Europe/Berlin:20230627T170000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opening 
+DTSTART;TZID=Europe/Berlin:20230627T090000
+DTEND;TZID=Europe/Berlin:20230627T091000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 3
+DTSTART;TZID=Europe/Berlin:20230627T130000
+DTEND;TZID=Europe/Berlin:20230627T143000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 4
+DTSTART;TZID=Europe/Berlin:20230627T144500
+DTEND;TZID=Europe/Berlin:20230627T161500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 5
+DTSTART;TZID=Europe/Berlin:20230627T144500
+DTEND;TZID=Europe/Berlin:20230627T161500
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 6
+DTSTART;TZID=Europe/Berlin:20230627T163000
+DTEND;TZID=Europe/Berlin:20230627T180000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcoming address
+DTSTART;TZID=Europe/Berlin:20230627T090000
+DTEND;TZID=Europe/Berlin:20230627T091000
+DESCRIPTION:tba
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Planning - Data interoperability in Construction and built e
+ nvironment
+DTSTART;TZID=Europe/Berlin:20230627T090000
+DTEND;TZID=Europe/Berlin:20230627T100000
+DESCRIPTION:Initiatives\, examples and plans towards integrated models (GI
+ S - BIM) applications for construction and built environement use cases.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: Ocean/Marine (TbC)\n
+DTSTART;TZID=Europe/Berlin:20230627T090000
+DTEND;TZID=Europe/Berlin:20230627T100000
+DESCRIPTION:Chair: TbD
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Planning: Digital Building Permits Platforms
+DTSTART;TZID=Europe/Berlin:20230627T103000
+DTEND;TZID=Europe/Berlin:20230627T120000
+DESCRIPTION:Insights and discussion on software architectures and platform
+ s orchestrating the digital building permit data workflows and components
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: Climate \n
+DTSTART;TZID=Europe/Berlin:20230627T103000
+DTEND;TZID=Europe/Berlin:20230627T120000
+DESCRIPTION:Chair: TbD
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hackathon Winners Award Ceremony
+DTSTART;TZID=Europe/Berlin:20230627T130000
+DTEND;TZID=Europe/Berlin:20230627T143000
+DESCRIPTION:True to the motto "Free Data!"\, the "Leipzig Open Data Hackat
+ hon" is taking place this year. Here\, innovative ideas are to be develope
+ d to bring urban data to the people faster and more effectively. Intereste
+ d citizens\, students\, IT enthusiasts and open data enthusiasts are invit
+ ed to make the existing offering of the Leipzig Open Data portal even bett
+ er with their own ideas and suggestions. In this slot\, the prize winners 
+ will be awarded.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Planning: Digital Building Permits
+DTSTART;TZID=Europe/Berlin:20230627T130000
+DTEND;TZID=Europe/Berlin:20230627T143000
+DESCRIPTION:Overview and points of views on Digital Building Permit releva
+ nt initiatives
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: Agriculture
+DTSTART;TZID=Europe/Berlin:20230627T150000
+DTEND;TZID=Europe/Berlin:20230627T163000
+DESCRIPTION:description will follow
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Planning: Platforms experience exchange
+DTSTART;TZID=Europe/Berlin:20230627T150000
+DTEND;TZID=Europe/Berlin:20230627T163000
+DESCRIPTION:description will follow
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Location Innovation Academy
+DTSTART;TZID=Europe/Berlin:20230627T170000
+DTEND;TZID=Europe/Berlin:20230627T182000
+DESCRIPTION:Location Innovation Academy offers 3 courses and 12 e-learning
+  modules to help government agencies\, particularly national mapping organ
+ izations\, make the most of their existing geospatial platforms and create
+  a cloud-based system of generic services that can connect various dataset
+ s and services with geospatial data. The session is a training on how to u
+ se this online academy
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: Biodiversity
+DTSTART;TZID=Europe/Berlin:20230627T170000
+DTEND;TZID=Europe/Berlin:20230627T182000
+DESCRIPTION:description will follow
+LOCATION:Room 259
+END:VEVENT
+END:VCALENDAR
