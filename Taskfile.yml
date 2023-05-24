@@ -9,6 +9,12 @@ tasks:
     cmds:
       - task -a
 
+  ci:
+    desc: The task to be run by the CI
+    cmds:
+      - task: install
+      - task: build
+
   install:
     desc: Install the dependencies
     cmds:
