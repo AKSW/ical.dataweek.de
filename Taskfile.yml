@@ -3,6 +3,12 @@ version: '3'
 vars:
   MKDOCS_WORKING_DIR: ical
 
+  MODEL_REPO: git@github.com:AKSW/leipzig.dataweek.de-model.git
+  MODEL_DIR: .model
+  SOURCE_GRAPH_FILE: graph
+  GRAPH_FILE: ical/data/graph
+  GRAPH_IRI: https://2023.dataweek.de/
+
 tasks:
   default:
     desc: The default task shows an overview of all tasks
@@ -13,6 +19,8 @@ tasks:
     desc: The task to be run by the CI
     cmds:
       - task: install
+      - task: data:sync
+      - task: track:commit-and-push-data
       - task: build
 
   install:
@@ -31,3 +39,45 @@ tasks:
     dir: '{{.MKDOCS_WORKING_DIR}}'
     cmds:
       - poetry run mkdocs build
+
+  data:sync:
+    desc: Synchronize the data in the CI
+    cmds:
+      - task: data:model-update
+      - task: data:get-graph
+
+  data:sync:local:
+    desc: Synchronize the data including local changes in a dev setup
+    deps:
+      - data:model-init
+    cmds:
+      - cd .model && task sync:local
+      - task: data:get-graph
+
+  data:get-graph:
+    cmds:
+      - cp {{.MODEL_DIR}}/{{.SOURCE_GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
+      - cp {{.MODEL_DIR}}/{{.SOURCE_GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
+      - echo {{.MODEL_REPO}} > {{.GRAPH_FILE}}.nt.source
+      - cd {{.MODEL_DIR}} && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
+
+  data:model-update:
+    deps:
+      - data:model-init
+    cmds:
+      - cd {{.MODEL_DIR}} && git pull
+
+  data:model-init:
+    cmds:
+      - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
+    status:
+      - test -d {{.MODEL_DIR}}
+
+  track:commit-and-push-data:
+    - git add {{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.source
+    - task: track:commit-and-push
+
+  track:commit-and-push:
+    cmds:
+      - git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      - git push || echo ""
