@@ -89,7 +89,7 @@ for row in results:
     events[row.event] = event
 
 # Write the iCalendar object to a file
-with mkdocs_gen_files.open("leipzig-dataweek.ics", "wb") as f:
+with mkdocs_gen_files.open("index.ics", "wb") as f:
     f.write(cal.to_ical())
 
 for day in days:
