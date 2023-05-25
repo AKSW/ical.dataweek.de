@@ -15,6 +15,11 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Check out Site Repository 📄
       uses: actions/checkout@v3
+    - name: Check out Model Repository 🗃️
+      uses: actions/checkout@v3
+      with:
+        repository: 'AKSW/leipzig.dataweek.de-model'
+        path: '.model'
     - uses: actions/setup-python@v4
       with:
         python-version: "3.11"
