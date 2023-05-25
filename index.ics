@@ -652,11 +652,11 @@ DESCRIPTION:This session will present topics in the area of building and m
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Knowledge Graphs and Large Language Models
+SUMMARY:Session: Knowledge Graphs and Artifical Intelligence
 DTSTART;TZID=Europe/Berlin:20230628T150000
 DTEND;TZID=Europe/Berlin:20230628T160000
-DESCRIPTION:This session will discuss Knowledge Graphs in the context of L
- arge Language Models such as ChatGPT.
+DESCRIPTION:This session will discuss Knowledge Graphs in the broader cont
+ ext of Artificial Inteligence and Large Language Models such as ChatGPT.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
