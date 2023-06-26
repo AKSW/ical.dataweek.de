@@ -44,23 +44,29 @@ fm = FileMapper(config={
 query = """
 PREFIX schema: <http://schema.org/>
 PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT ?event ?date ?start ?end ?title ?description ?location
+SELECT ?event (min(?date_) as ?date) (min(?start_) as ?start) (max(?end_) as ?end) (min(?title_) as ?title) (min(?description_) as ?description) (min(?location_) as ?location)
 WHERE {
   ?event a schema:Event ;
-         dct:date ?date ;
-         schema:startTime ?start ;
-         schema:endTime ?end ;
+         dct:date ?date_ ;
+         schema:startTime ?start_ ;
+         schema:endTime ?end_ ;
          schema:location ?loc ;
-         dct:title ?title .
-  ?loc dct:title ?location .
-         filter(langMatches(lang(?title), "en"))
-         filter(langMatches(lang(?location), "en"))
+         dct:title ?dcttitle_ ;
+         skos:prefLabel ?prefLabel_ .
+  ?loc dct:title ?location_ .
+         filter(langMatches(lang(?dcttitle_), "en"))
+         filter(langMatches(lang(?prefLabel_), "en"))
+         filter(langMatches(lang(?location_), "en"))
+         bind (coalesce(?prefLabel_, ?dcttitle_) as ?title_)
   optional {
-    ?event dct:description ?description .
-    filter(langMatches(lang(?description), "en"))
+    ?event dct:description ?description_ .
+    filter(langMatches(lang(?description_), "en"))
   }
-} order by ?date
+}
+group by ?event
+order by ?date
 """
 # Load the Graph
 g.parse("data/graph.nt")
