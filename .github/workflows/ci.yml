@@ -3,6 +3,7 @@ name: Run CI Task
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
