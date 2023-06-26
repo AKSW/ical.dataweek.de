@@ -53,8 +53,10 @@ WHERE {
          schema:startTime ?start_ ;
          schema:endTime ?end_ ;
          schema:location ?loc ;
-         dct:title ?dcttitle_ ;
-         skos:prefLabel ?prefLabel_ .
+         dct:title ?dcttitle_ .
+  optional {
+    ?event skos:prefLabel ?prefLabel_ .
+  }
   ?loc dct:title ?location_ .
          filter(langMatches(lang(?dcttitle_), "en"))
          filter(langMatches(lang(?prefLabel_), "en"))
