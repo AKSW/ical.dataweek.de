@@ -56,10 +56,10 @@ WHERE {
          dct:title ?dcttitle_ .
   optional {
     ?event skos:prefLabel ?prefLabel_ .
+    filter(langMatches(lang(?prefLabel_), "en"))
   }
   ?loc dct:title ?location_ .
          filter(langMatches(lang(?dcttitle_), "en"))
-         filter(langMatches(lang(?prefLabel_), "en"))
          filter(langMatches(lang(?location_), "en"))
          bind (coalesce(?prefLabel_, ?dcttitle_) as ?title_)
   optional {
