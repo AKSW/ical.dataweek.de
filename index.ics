@@ -73,6 +73,18 @@ DESCRIPTION:In the training course\, they learn how they can use satellite
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Open data as a business model? Administration\, science and compan
+ ies get into conversation
+DTSTART;TZID=Europe/Berlin:20250610T161000
+DTEND;TZID=Europe/Berlin:20250610T174000
+DESCRIPTION:The session will shed light on key questions surrounding the c
+ ommercial use of open data: What added value does open data bring to compa
+ nies and the municipality? What are the challenges of working with open da
+ ta? This event offers the opportunity to contribute inspiring questions an
+ d ideas and to think together about the future of open data.
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Advice for founders (offered by the Office for Economic Developmen
  t)
 DTSTART;TZID=Europe/Berlin:20250610T100000
