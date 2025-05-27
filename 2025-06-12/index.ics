@@ -212,9 +212,8 @@ DTEND;TZID=Europe/Berlin:20250612T170000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIAMO - More quality of life through AI-controlled mobility.\n\nHo
- w artificial intelligence is making mobility more sustainable and efficien
- t
+SUMMARY:AIAMO - More quality of life through AI-controlled mobility. How a
+ rtificial intelligence is making mobility more sustainable and efficient
 DTSTART;TZID=Europe/Berlin:20250612T110000
 DTEND;TZID=Europe/Berlin:20250612T123000
 DESCRIPTION:Experience how the AIAMO - Artificial Intelligence and Mobilit
@@ -229,8 +228,8 @@ DESCRIPTION:Experience how the AIAMO - Artificial Intelligence and Mobilit
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leipzig as a pioneer - insights into the AIAMO pilot region\n\nWha
- t is already working today? What can other cities learn?
+SUMMARY:Leipzig as a pioneer - insights into the AIAMO pilot region\nWhat 
+ is already working today? What can other cities learn?
 DTSTART;TZID=Europe/Berlin:20250612T133000
 DTEND;TZID=Europe/Berlin:20250612T150000
 DESCRIPTION:Leipzig is one of the 100 EU model municipalities of the EU Ci
